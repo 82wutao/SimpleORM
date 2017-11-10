@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="simpleorm" />
+        <module name="SimpleORM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="simpleorm" target="1.8" />
+      <module name="SimpleORM" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
